@@ -53,51 +53,6 @@ const Footer: React.FC = () => {
       </div>
     </footer>
   );
-// return (
-//     <footer className="bg-darkBlueGray text-white py-12">
-//       <div className="container mx-auto flex flex-wrap justify-between items-center">
-//         {/* Left Section */}
-//         <div className="flex flex-col space-y-2 text-center md:text-left">
-//           <h2 className="text-lg font-bold">KIZITO TWALIB</h2>
-//           <p className="text-sm">Director</p>
-//         </div>
-  
-//         {/* Middle Section */}
-//         <div className="flex flex-col space-y-2 text-center md:text-left">
-//           <div className="flex items-center justify-center md:justify-start">
-//             <BsTelephone className="mr-2" />
-//             <span>+256 788 072231</span>
-//           </div>
-//           <div className="flex items-center justify-center md:justify-start">
-//             <MdOutlineEmail className="mr-2" />
-//             <span>Twalibluvinz@gmail.com</span>
-//           </div>
-//           <div className="flex items-center justify-center md:justify-start">
-//             <PiMapPinFill className="mr-2" />
-//             <span>Kisasi - Kampala</span>
-//           </div>
-//         </div>
-  
-//         {/* Right Section */}
-//         <div className="flex flex-col items-center">
-//           <Image
-//             src="/kizcab3.png"
-//             alt="KIZCAB logo"
-//             width={300}
-//             height={150}
-//             className="mb-4"
-//           />
-//         </div>
-//       </div>
-  
-//       {/* Footer Text */}
-//       <div className="container mx-auto flex justify-center items-center mt-6">
-//         <p className="text-gray-400 text-center">© 2025 KIZCAB. All rights reserved.</p>
-//       </div>
-//     </footer>
-//   );
-  
-  
 };
 
 export default Footer;

@@ -3,18 +3,6 @@ import Link from "next/link";
 
 // components/About.tsx
 const About: React.FC = () => {
-  //   return (
-  //     <section id="about" className="py-16 bg-gray-100 text-center">
-  //       <h2 className="text-4xl font-semibold mb-4">About KizCab</h2>
-  //       <p className="text-lg max-w-2xl mx-auto">
-  //         Welcome to KizCab, your trusted partner for reliable and convenient
-  //         transportation services in Kampala and beyond. Whether you&lsquo;re heading to
-  //         the airport, commuting to work, or exploring the city, KizCab is here to
-  //         ensure a seamless and comfortable journey every time.
-  //       </p>
-  //     </section>
-  //   );
-
   return (
     // <section
     //   id="about"
@@ -47,7 +35,7 @@ const About: React.FC = () => {
             time.
           </p>
           <button className="px-6 py-2 bg-white text-pink-500 font-semibold rounded-lg shadow-md hover:bg-gray-100 transition duration-300">
-            <Link href="#portfolio">Learn More</Link>
+            <Link href="#services">Learn More</Link>
           </button>
         </div>
       </div>

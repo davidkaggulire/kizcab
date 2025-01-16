@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* <h1 className="text-3xl font-bold">KIZCAB</h1> */}
         <h1 className="text-3xl font-bold">
-          <span >KIZ</span>
+          <span>KIZ</span>
           <span className="text-darkYellow">CAB</span>
         </h1>
 
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
               <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="#portfolio">Services</Link>
+              <Link href="#services">Services</Link>
             </li>
             <li>
               <Link href="#contact">Contact</Link>

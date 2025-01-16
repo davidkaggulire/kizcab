@@ -28,16 +28,21 @@ export const metadata: Metadata = {
   },
   // include open graph for other sites
   openGraph: {
-    title: "KizCab",
-    description: "Seamless transport",
-    type: "website",
+    title: "KizCab - Seamless transport",
+    description:
+      "Effortlessly travel with KizCab, the ultimate transport solution.",
+    url: "https://kizcab.vercel.app/", // Replace with your app's URL
+    siteName: "KizCab",
     images: [
       {
-        url: "/opengraph-image.png?v=1", // Add version parameter
+        url: "https://kizcab.vercel.app/kizcab1.png", // Use absolute URLs here
         width: 1200,
         height: 630,
+        alt: "KizCab Logo",
       },
     ],
+    locale: "en_US",
+    type: "website",
   },
 };
 

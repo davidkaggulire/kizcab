@@ -15,16 +15,29 @@ const geistMono = Geist_Mono({
 const roboto = Roboto({
   variable: "--font-roboto", // You can use this variable to apply it globally
   subsets: ["latin"],
-  weight: "300"
+  weight: "300",
 });
 
 export const metadata: Metadata = {
   title: "KizCab",
   description: "Seamless transport",
   icons: {
-    icon: '/kizcab1.png',
-    shortcut: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    icon: "/kizcab1.png",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  // include open graph for other sites
+  openGraph: {
+    title: "KizCab",
+    description: "Seamless transport",
+    type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png?v=1", // Add version parameter
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
